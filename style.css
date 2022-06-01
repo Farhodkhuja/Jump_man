@@ -1,0 +1,85 @@
+.game{
+    background-image: url(1234.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    border-bottom: 2px solid #000;
+    margin: auto;
+}
+#man{
+    width: 80px;
+    height: 100px;
+    background-image: url(123.png);
+    background-size: 80px 100px;
+    position: relative;
+    top: 82px;
+    left: 30px;
+}
+#mush{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-image: url(grib.jpg);
+    background-size: cover;
+    position: relative;
+    top: 35px;
+    left: 550px; 
+    animation: mushroomMuv 1.5s infinite linear;
+}
+@keyframes mushroomMuv {
+    0% {
+        left: 550px;
+    }
+    100% {
+        left: -80px;
+    }
+}
+#bird{
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    background-image: url(tumblr.png);
+    background-size: cover;
+    position: relative;
+    top: -150px;
+    left: 30px; 
+    animation: mushroomMuv 5.8s infinite linear;
+}
+@keyframes mushroomMuv {
+    0% {
+        left: 500px;
+    }
+    100% {
+        left: -80px;
+    }
+}
+.jump{
+    animation: jump 0.3s linear;
+}
+@keyframes jump {
+    0% {
+        top: 30px;
+    }
+    30% {
+        top: 10px;
+    }
+    50% {
+        top: 10px;
+    } 
+    80% {
+        top: 10px;
+    }
+    100% {
+        top: 10px;
+    }
+}
+#timer{
+    position: absolute;
+    margin: 20px;
+    left: 450px;   
+}
+input{
+    width: auto;
+    height: auto;
+    
+}
